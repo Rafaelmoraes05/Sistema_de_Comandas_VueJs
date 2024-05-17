@@ -96,7 +96,7 @@ export default {
 
             const req_burgers = await fetch("http://localhost:3000/burgers");
             const data_burgers = await req_burgers.json();
-            console.log(data_burgers)
+            //console.log(data_burgers)
             this.msg = `Pedido Nº${data_burgers.length} realizado com sucesso!`
 
             setTimeout(()=>this.msg="", 3000);

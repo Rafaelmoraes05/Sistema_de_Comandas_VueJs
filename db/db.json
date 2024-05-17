@@ -79,37 +79,10 @@
   ],
   "burgers": [
     {
-      "id": "50f1",
-      "nome": "Rafael",
+      "id": "5a7f",
+      "nome": "Rafa",
       "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Pepino"
-      ],
-      "status": "solicitado"
-    },
-    {
-      "id": "a473",
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "opcionais": [],
-      "status": "solicitado"
-    },
-    {
-      "id": "31f3",
-      "nome": "",
-      "carne": "",
       "pao": "",
-      "opcionais": [],
-      "status": "solicitado"
-    },
-    {
-      "id": "ef79",
-      "nome": "Rafael",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
         "Salame"
@@ -117,82 +90,16 @@
       "status": "solicitado"
     },
     {
-      "id": "20da",
-      "nome": "Rafael",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "solicitado"
-    },
-    {
-      "id": "626e",
-      "nome": "",
-      "carne": "",
-      "pao": "",
-      "opcionais": [],
-      "status": "solicitado"
-    },
-    {
-      "id": "08b8",
-      "nome": "Rafael",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "solicitado"
-    },
-    {
-      "id": "3c84",
-      "nome": "Rafael",
+      "id": "ab98",
+      "nome": "Dudu",
       "carne": "Alcatra",
-      "pao": "3 Queijos",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
         "Bacon",
-        "Pepino"
+        "Pepino",
+        "Tomate"
       ],
-      "status": "solicitado"
-    },
-    {
-      "id": "33db",
-      "nome": "Rafael",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "solicitado"
-    },
-    {
-      "id": "d2f4",
-      "nome": "",
-      "carne": "",
-      "pao": "",
-      "opcionais": [],
-      "status": "solicitado"
-    },
-    {
-      "id": "78ef",
-      "nome": "Rafael",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "solicitado"
-    },
-    {
-      "id": "4ed6",
-      "nome": "Rafael",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "solicitado"
+      "status": "Em produção"
     }
   ]
 }
