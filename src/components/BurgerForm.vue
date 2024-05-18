@@ -62,7 +62,7 @@ export default {
     },
     methods:{
         async getIngredients(){
-            const req = await fetch("http://localhost:3000/ingredientes");
+            const req = await fetch("https://jsonservercomandas.onrender.com/ingredientes");
             const data = await req.json();
             this.paes = data.paes;
             this.carnes = data.carnes;
@@ -80,7 +80,7 @@ export default {
 
             const dataJson = JSON.stringify(data);
 
-            const req = await fetch("http://localhost:3000/burgers", {
+            const req = await fetch("https://jsonservercomandas.onrender.com/burgers", {
                 method: "POST", 
                 headers: {"Content-Type" : "application/Json"},
                 body: dataJson
@@ -94,7 +94,7 @@ export default {
             this.pao="";
             this.opcionais=[];
 
-            const req_burgers = await fetch("http://localhost:3000/burgers");
+            const req_burgers = await fetch("https://jsonservercomandas.onrender.com/burgers");
             const data_burgers = await req_burgers.json();
             //console.log(data_burgers)
             this.msg = `Pedido Nº${data_burgers.length} realizado com sucesso!`

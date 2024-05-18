@@ -48,7 +48,7 @@
       },
       methods: {
         async getPedidos() {
-          const req = await fetch('http://localhost:3000/burgers')
+          const req = await fetch('https://jsonservercomandas.onrender.com/burgers')
   
           const data = await req.json()
   
@@ -60,7 +60,7 @@
         },
         async getStatus() {
   
-          const req = await fetch('http://localhost:3000/status')
+          const req = await fetch('https://jsonservercomandas.onrender.com/status')
   
           const data = await req.json()
   
@@ -69,7 +69,7 @@
         },
         async deleteBurger(id) {
   
-          const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+          const req = await fetch(`https://jsonservercomandas.onrender.com/burgers/${id}`, {
             method: "DELETE"
           });
   
@@ -86,7 +86,7 @@
   
           const dataJson = JSON.stringify({status: option});
   
-          const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+          const req = await fetch(`https://jsonservercomandas.onrender.com/burgers/${id}`, {
             method: "PATCH",
             headers: { "Content-Type" : "application/json" },
             body: dataJson
