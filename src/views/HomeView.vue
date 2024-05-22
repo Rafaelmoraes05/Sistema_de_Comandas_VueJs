@@ -14,12 +14,21 @@ export default{
   <div class="main-container">
     <Banner />
     <h1>Monte o seu Burger</h1>
-    <BurgerForm />
+    <BurgerForm class="formulario"/>
   </div>
 </template>
 <style>
 h1{
   font-weight: 800;
   margin-top: 30px;
+}
+
+@media(max-width:600px){
+  h1{
+    font-size: 30px!important;
+  }
+  .formulario{
+    margin: 0 30px;
+  }
 }
 </style>
